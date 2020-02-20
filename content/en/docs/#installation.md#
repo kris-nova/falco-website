@@ -143,7 +143,7 @@ Install Falco directly on Linux via a scripted install, package managers, or con
 To install Falco on Linux, you can download a shell script that takes care of the necessary steps:
 
 ```shell
-curl -o install-falco.sh -s https://raw.githubusercontent.com/falcosecurity/falco/master/scripts/install-falco.sh
+curl -o install-falco.sh -s 
 ```
 
 Then verify the [SHA256](https://en.wikipedia.org/wiki/SHA-2) checksum of the script using the `sha256sum` tool (or something analogous):
